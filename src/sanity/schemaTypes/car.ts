@@ -1,4 +1,5 @@
-export default {
+
+const schema= {
     name: 'car',
     type: 'document',
     title: 'Car',
@@ -13,6 +14,14 @@ export default {
         type: 'string',
         title: 'Brand',
         description: 'Brand of the car (e.g., Nissan, Tesla, etc.)',
+      },
+      {
+        name:"slug",
+        type:"slug",
+        title:"Slug",
+        options:{
+          source: "name"
+        }
       },
       {
         name: 'type',
@@ -70,3 +79,5 @@ export default {
       }
     ],
   };
+
+  export default schema;

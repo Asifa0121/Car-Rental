@@ -3,7 +3,7 @@ import { CiSearch } from 'react-icons/ci';
 import { FaHeart } from 'react-icons/fa';
 import { IoIosNotifications } from 'react-icons/io';
 import { RiSettings3Fill } from 'react-icons/ri';
-import profile from '@/components/Images/profile.png'; 
+import logo from "@/../public/images/logo.png" 
 
 
     
@@ -30,7 +30,7 @@ export default function NavBar(){
             <IoIosNotifications className="w-[30px] h-[30px] text-gray-500" />
             <RiSettings3Fill className="w-[30px] h-[30px] text-gray-500" />
             {/* profile Image */}
-            <Image src={profile} alt="profile" className="w-[44px] h-[44px] rounded-full"
+            <Image src={logo} alt="profile" className="w-[44px] h-[44px] rounded-full"
             />
         </div>
      

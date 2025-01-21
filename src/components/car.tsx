@@ -1,6 +1,7 @@
 import Image from "next/image";
-import car from '@/components/Images/car.png'
-import car1 from '@/components/Images/car1.png'
+import car1 from '@/../public/images/car1.png'
+import car2 from '@/../public/images/car2.png'
+
 import {LuArrowDownUp} from "react-icons/lu";
 import Link from "next/link";
 
@@ -11,28 +12,28 @@ export default function Car(){
     return(
         <div >
             <div className="flex gap-3 top-8  items-center justify-center overflow-hidden sm:flex-wrap  md: flex-wrap lg:flex  "> 
-                {/* car */}
+{/* car1 */}
             <div className="car  w-[590px] h-[370px] justify-center ml-3 ">
                 <div className="w-[284px] h-[160px] ">
                 <h3 className="w-[272px] h-[96px] text-white text-[32px] font-sans font-bold">The Best Platform for Car Rental</h3>
                 <p className="text-white text-[Plus Jakarta Sans]text-[16px] mt-4 mb-4">Ease of doing a car rental safely and reliably. Of course at a low price.</p>
-                <Link href={'nissa'}> <button className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700">
+                <Link href={'nissa'}> <button className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 active:underline">
               Rental Car
             </button></Link></div>
                 <div className="ml-36 ">
-                <Image src={car} alt="car" className="h-[216px] w-[406px]"/></div>
+                <Image src={car1} alt="car" className="h-[216px] w-[406px]"/></div>
             </div>
 
-{/* car1 */}
+{/* car2 */}
             <div className="car1  w-[590px] h-[370px] ">
                 <div className="w-[284px] h-[160px] ">
                 <h3 className="w-[272px] h-[96px] text-white text-[32px] font-sans font-bold">Easy way to rent a car at a low price</h3>
                 <p className="text-white text-[Plus Jakarta Sans]text-[16px] mt-4 mb-4">Providing cheap car rental services and safe and comfortable facilities.</p>
-                <Link href={'nissa'}> <button className="bg-blue-400 text-white px-6 py-2 rounded-lg hover:bg-blue-700">
+                <Link href={'nissa'}> <button className="bg-blue-400 text-white px-6 py-2 rounded-lg hover:bg-blue-700 active:underline">
               Rental Car
             </button></Link></div>
                 <div className="ml-36 ">
-                <Image src={car1} alt="car" className="h-[220px] w-[406px]"/></div>
+                <Image src={car2} alt="car" className="h-[220px] w-[406px]"/></div>
             </div>
             </div>
        
