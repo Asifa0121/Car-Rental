@@ -12,9 +12,9 @@ export default function Home(){
   return(
     <div>
       <br/><br/>
-      <Car/>
+       <Car/> 
       <CardData/> 
-      <RecomandCar/>
+      <RecomandCar/> 
     
       
     </div>

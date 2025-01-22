@@ -23,7 +23,7 @@ const client = createClient({
 });
 
 export async function GetCarData() {
-  // Define your GROQ query (replace `cars` with your actual document type or collection)
+
   const query = groq`
     *[_type == "car"] { 
       _id,
