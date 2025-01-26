@@ -9,15 +9,15 @@ import logo from "@/../public/images/logo.png"
     
 export default function NavBar(){
   return(
-    <div className="w-full overflow-hidden md:flex-row items-center justify-between p-4  ">
+    <div className="w-full md:flex-row items-center justify-between">
     <div className="flex flex-col md:flex-row  gap-4 md:gap-6 bg-white border w-full h-[124px] justify-between items-center px-4 md:px-8">
       {/* Logo */}
-      <div className="title text-lg font-semibold w-[148px] h-[44px]">
+      <h1 className="title text-lg font-semibold sm:justify-start">
         MORENT
-      </div>
+      </h1>
       
       {/* Search Bar */}
-      <div className="border border-gray-300 bg-white flex items-center w-full md:w-[492px] h-[44px] px-4 rounded-md">
+      <div className="border border-gray-300 bg-white flex items-center w-full md:w-[480px] h-[44px] px-4 rounded-md">
         <CiSearch className="text-gray-500 mr-2" />
         <input
           type="text"
